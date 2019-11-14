@@ -2,4 +2,6 @@
 <scenes>
     <scene desc="" format="4.0.1" id="0" name="Maze 1"/>
     <scene desc="" format="4.0.1" id="1" name="Main Screen"/>
+    <scene desc="" format="4.0.1" id="2" name="Farm"/>
+    <scene desc="" format="4.0.1" id="3" name="Title_Screen"/>
 </scenes>

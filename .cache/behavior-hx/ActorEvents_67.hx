@@ -74,6 +74,9 @@ class ActorEvents_67 extends ActorScript
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		actor.setAnimation("Cob");
+		
 	}
 	
 	override public function forwardMessage(msg:String)

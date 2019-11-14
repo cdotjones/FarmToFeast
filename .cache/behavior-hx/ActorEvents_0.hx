@@ -77,6 +77,18 @@ class ActorEvents_0 extends ActorScript
 		/* ======================== When Creating ========================= */
 		actor.makeAlwaysSimulate();
 		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(78), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				if(isKeyPressed("Action 1"))
+				{
+					event.otherActor.setAnimation("Cob");
+				}
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)
