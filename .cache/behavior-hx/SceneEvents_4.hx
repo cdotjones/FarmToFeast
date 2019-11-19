@@ -62,7 +62,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_0 extends SceneScript
+class SceneEvents_4 extends SceneScript
 {
 	
 	
@@ -74,13 +74,6 @@ class SceneEvents_0 extends SceneScript
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		if((Engine.engine.getGameAttribute("firstTime") : Bool))
-		{
-			Engine.engine.setGameAttribute("firstTime", false);
-			loopSound(getSound(62));
-		}
 		
 	}
 	

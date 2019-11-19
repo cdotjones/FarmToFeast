@@ -78,6 +78,39 @@
         <actor a="0.0" aid="114" c="false" group="3" id="76" name="Gate02 114" order="61" sx="1.0" sy="1.0" x="480" y="192" z="0"/>
         <actor a="0.0" aid="115" c="false" group="3" id="80" name="Gate03 115" order="62" sx="1.0" sy="1.0" x="448" y="256" z="0"/>
         <actor a="0.0" aid="116" c="false" group="3" id="80" name="Gate03 116" order="63" sx="1.0" sy="1.0" x="480" y="256" z="0"/>
+        <actor a="0.0" aid="117" c="false" group="3" id="78" name="heagney 117" order="0" sx="1.0" sy="1.0" x="64" y="64" z="2"/>
+        <actor a="0.0" aid="118" c="false" group="3" id="78" name="heagney 118" order="1" sx="1.0" sy="1.0" x="96" y="64" z="2"/>
+        <actor a="0.0" aid="119" c="false" group="3" id="78" name="heagney 119" order="2" sx="1.0" sy="1.0" x="128" y="64" z="2"/>
+        <actor a="0.0" aid="120" c="false" group="3" id="78" name="heagney 120" order="3" sx="1.0" sy="1.0" x="160" y="64" z="2"/>
+        <actor a="0.0" aid="121" c="false" group="3" id="78" name="heagney 121" order="4" sx="1.0" sy="1.0" x="192" y="64" z="2"/>
+        <actor a="0.0" aid="122" c="false" group="3" id="78" name="heagney 122" order="5" sx="1.0" sy="1.0" x="224" y="64" z="2"/>
+        <actor a="0.0" aid="123" c="false" group="3" id="78" name="heagney 123" order="6" sx="1.0" sy="1.0" x="256" y="64" z="2"/>
+        <actor a="0.0" aid="124" c="false" group="3" id="78" name="heagney 124" order="7" sx="1.0" sy="1.0" x="288" y="64" z="2"/>
+        <actor a="0.0" aid="125" c="false" group="3" id="78" name="heagney 125" order="8" sx="1.0" sy="1.0" x="288" y="96" z="2"/>
+        <actor a="0.0" aid="126" c="false" group="3" id="78" name="heagney 126" order="9" sx="1.0" sy="1.0" x="256" y="96" z="2"/>
+        <actor a="0.0" aid="127" c="false" group="3" id="78" name="heagney 127" order="10" sx="1.0" sy="1.0" x="224" y="96" z="2"/>
+        <actor a="0.0" aid="128" c="false" group="3" id="78" name="heagney 128" order="11" sx="1.0" sy="1.0" x="192" y="96" z="2"/>
+        <actor a="0.0" aid="129" c="false" group="3" id="78" name="heagney 129" order="12" sx="1.0" sy="1.0" x="192" y="96" z="2"/>
+        <actor a="0.0" aid="130" c="false" group="3" id="78" name="heagney 130" order="13" sx="1.0" sy="1.0" x="160" y="96" z="2"/>
+        <actor a="0.0" aid="131" c="false" group="3" id="78" name="heagney 131" order="14" sx="1.0" sy="1.0" x="128" y="96" z="2"/>
+        <actor a="0.0" aid="132" c="false" group="3" id="78" name="heagney 132" order="15" sx="1.0" sy="1.0" x="96" y="96" z="2"/>
+        <actor a="0.0" aid="133" c="false" group="3" id="78" name="heagney 133" order="16" sx="1.0" sy="1.0" x="64" y="96" z="2"/>
+        <actor a="0.0" aid="134" c="false" group="3" id="78" name="heagney 134" order="17" sx="1.0" sy="1.0" x="64" y="128" z="2"/>
+        <actor a="0.0" aid="135" c="false" group="3" id="78" name="heagney 135" order="18" sx="1.0" sy="1.0" x="96" y="128" z="2"/>
+        <actor a="0.0" aid="136" c="false" group="3" id="78" name="heagney 136" order="19" sx="1.0" sy="1.0" x="128" y="128" z="2"/>
+        <actor a="0.0" aid="137" c="false" group="3" id="78" name="heagney 137" order="20" sx="1.0" sy="1.0" x="160" y="128" z="2"/>
+        <actor a="0.0" aid="138" c="false" group="3" id="78" name="heagney 138" order="21" sx="1.0" sy="1.0" x="192" y="128" z="2"/>
+        <actor a="0.0" aid="139" c="false" group="3" id="78" name="heagney 139" order="22" sx="1.0" sy="1.0" x="224" y="128" z="2"/>
+        <actor a="0.0" aid="140" c="false" group="3" id="78" name="heagney 140" order="23" sx="1.0" sy="1.0" x="256" y="128" z="2"/>
+        <actor a="0.0" aid="141" c="false" group="3" id="78" name="heagney 141" order="24" sx="1.0" sy="1.0" x="288" y="160" z="2"/>
+        <actor a="0.0" aid="142" c="false" group="3" id="78" name="heagney 142" order="25" sx="1.0" sy="1.0" x="288" y="128" z="2"/>
+        <actor a="0.0" aid="143" c="false" group="3" id="78" name="heagney 143" order="26" sx="1.0" sy="1.0" x="256" y="160" z="2"/>
+        <actor a="0.0" aid="144" c="false" group="3" id="78" name="heagney 144" order="27" sx="1.0" sy="1.0" x="224" y="160" z="2"/>
+        <actor a="0.0" aid="145" c="false" group="3" id="78" name="heagney 145" order="28" sx="1.0" sy="1.0" x="192" y="160" z="2"/>
+        <actor a="0.0" aid="146" c="false" group="3" id="78" name="heagney 146" order="29" sx="1.0" sy="1.0" x="160" y="160" z="2"/>
+        <actor a="0.0" aid="147" c="false" group="3" id="78" name="heagney 147" order="30" sx="1.0" sy="1.0" x="128" y="160" z="2"/>
+        <actor a="0.0" aid="148" c="false" group="3" id="78" name="heagney 148" order="31" sx="1.0" sy="1.0" x="96" y="160" z="2"/>
+        <actor a="0.0" aid="149" c="false" group="3" id="78" name="heagney 149" order="32" sx="1.0" sy="1.0" x="64" y="160" z="2"/>
     </actors>
     <snippets>
         <s enabled="true" id="6">

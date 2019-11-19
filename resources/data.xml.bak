@@ -44,16 +44,16 @@
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="1" name="Ball" readable="false" shared="false">
-        <anim across="2" down="1" durations="100,100" height="32" id="0" loop="true" name="Down" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Down" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="32" id="1" loop="true" name="Up" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+        <anim across="1" down="1" durations="100" height="31" id="1" loop="true" name="Up" numframes="1" originx="14" originy="15" sync="false" version="2" width="28">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="32" id="2" loop="true" name="Left" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+        <anim across="1" down="1" durations="100" height="31" id="2" loop="true" name="Left" numframes="1" originx="12" originy="15" sync="false" version="2" width="24">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="32" id="3" loop="true" name="Right" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+        <anim across="1" down="1" durations="100" height="31" id="3" loop="true" name="Right" numframes="1" originx="12" originy="15" sync="false" version="2" width="24">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
@@ -65,14 +65,15 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="block" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="320" id="90" name="cowpasture" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="480" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="63" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="64" static="false">
+        <snippets/>
+    </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="64" name="Door" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="63" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="64" static="false">
-        <snippets/>
-    </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="2" id="58" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Down Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="59" static="false">
         <snippets>
             <s enabled="true" id="26">
@@ -279,6 +280,7 @@
             </s>
         </snippets>
     </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="324" id="91" name="potatofield" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="480" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="false" fric="0.2" gid="2" id="54" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Right Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="55" static="false">
         <snippets>
             <s enabled="true" id="26">
