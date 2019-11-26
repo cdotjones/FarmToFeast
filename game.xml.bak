@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<game accelFramerate="0" adsPosition="0" androidMinVersion="0" androidTargetVersion="0" antialias="false" appType="0" atlasBindingDefault="false" author="" authorURL="" autoRotate="false" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" bindAllAtlasesDefault="false" borderColor="-12303292" borderThickness="2" checksum="none" cws-desc="" cws-icon128="" cws-icon16="" cws-name="" cws-version="" defaultFramerate="60" defaultProjectScale="4x" defaultSceneID="0" desc="Simple maze game. Includes 4 Way Movement, a Switch Scene behavior and a switch behavior for opening up inaccessible  locations in the maze." desktopScale="1x" disableBackButton="false" enableGPG="false" enablePurchases="false" forceHiResAssets="true" format="4.0.1" gameid="-1" googleAppID="" haxeExtras="" height="320" iosLaunchBackground="-16777216" iosLaunchScaleMode="0" kit="false" lockURL="" maxScaleAndroid="4x" maxScaleDesktop="4x" maxScaleIOS="4x" maxScaleWeb="4x" multitouch="true" name="FarmToFeast" openflExtras="" orientation="1" physicsMode="0" pixelsnap="false" preloaderstyle="0" products="" scaleModeAndroid="0" scaleModeDesktop="0" scaleModeIOS="0" scaleModeWeb="0" showAds="false" simulatorOS="0.0" simulatorTargetOS="0.0" splashStyle="0" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" telemetry="false" testAds="false" webScale="1x" width="480">
+<game accelFramerate="0" adsPosition="0" androidMinVersion="0" androidTargetVersion="0" antialias="false" appType="0" atlasBindingDefault="false" author="" authorURL="" autoRotate="false" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" bindAllAtlasesDefault="false" borderColor="-12303292" borderThickness="2" checksum="none" cws-desc="" cws-icon128="" cws-icon16="" cws-name="" cws-version="" defaultFramerate="60" defaultProjectScale="4x" defaultSceneID="3" desc="Simple maze game. Includes 4 Way Movement, a Switch Scene behavior and a switch behavior for opening up inaccessible  locations in the maze." desktopScale="1x" disableBackButton="false" enableGPG="false" enablePurchases="false" forceHiResAssets="true" format="4.0.1" gameid="-1" googleAppID="" haxeExtras="" height="320" iosLaunchBackground="-16777216" iosLaunchScaleMode="0" kit="false" lockURL="" maxScaleAndroid="4x" maxScaleDesktop="4x" maxScaleIOS="4x" maxScaleWeb="4x" multitouch="true" name="FarmToFeast" openflExtras="" orientation="1" physicsMode="0" pixelsnap="false" preloaderstyle="0" products="" scaleModeAndroid="0" scaleModeDesktop="0" scaleModeIOS="0" scaleModeWeb="0" showAds="false" simulatorOS="0.0" simulatorTargetOS="0.0" splashStyle="0" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" telemetry="false" testAds="false" webScale="1x" width="480">
     <keys androidAlias="" androidCert="" androidPassword="" androidPublicKey="" cpmID="4738QF16B2AFF" iosTeamID="" ioswhirlKey="" ioswhirlKey1="" ngID="" ngKey="" p12="" p12pwd="" prov-adhoc="" prov-store="" whirlKey="" whirlKey1=""/>
     <exts>
         <e enabled="false" id="date"/>
@@ -15,10 +15,10 @@
         <e enabled="false" id="test-flash"/>
     </exts>
     <bundles>
-        <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="" store="Windows Store" version="1.0"/>
+        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Mac App Store" version="1.0"/>
         <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Google Play" version="1.0"/>
         <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="App Store" version="1.0"/>
-        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Mac App Store" version="1.0"/>
+        <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="" store="Windows Store" version="1.0"/>
     </bundles>
     <scales>
         <scale detailed="1x" id="0" name="1x" size="1.0"/>
@@ -85,6 +85,7 @@
         <key id="5" keyname="RIGHT" name="right" vk="39" vks="39"/>
         <key id="6" keyname="UP" name="up" vk="38" vks="38"/>
         <key id="7" keyname="A" name="Action 1" vk="65" vks="65,32"/>
+        <key id="8" keyname="F" name="PickUp" vk="70" vks="70"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -98,7 +99,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,31,39,45,47,48,50,52,54,56,58,60,62,63,65,69,71,73,75,76,78,80,82,83,84,86,87,90,91," name="Main Atlas (Default)" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,31,39,45,47,48,50,52,54,56,58,60,62,63,65,69,71,73,75,76,78,80,82,83,84,86,87,90,91,92,96," name="Main Atlas (Default)" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

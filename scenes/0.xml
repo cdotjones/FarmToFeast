@@ -74,10 +74,6 @@
         <actor a="0.0" aid="110" c="false" group="3" id="73" name="Fence_02 110" order="57" sx="1.0" sy="1.0" x="32" y="188" z="0"/>
         <actor a="0.0" aid="111" c="false" group="3" id="73" name="Fence_02 111" order="58" sx="1.0" sy="1.0" x="320" y="41" z="0"/>
         <actor a="0.0" aid="112" c="false" group="3" id="73" name="Fence_02 112" order="59" sx="1.0" sy="1.0" x="320" y="188" z="0"/>
-        <actor a="0.0" aid="113" c="false" group="3" id="76" name="Gate02 113" order="60" sx="1.0" sy="1.0" x="448" y="192" z="0"/>
-        <actor a="0.0" aid="114" c="false" group="3" id="76" name="Gate02 114" order="61" sx="1.0" sy="1.0" x="480" y="192" z="0"/>
-        <actor a="0.0" aid="115" c="false" group="3" id="80" name="Gate03 115" order="62" sx="1.0" sy="1.0" x="448" y="256" z="0"/>
-        <actor a="0.0" aid="116" c="false" group="3" id="80" name="Gate03 116" order="63" sx="1.0" sy="1.0" x="480" y="256" z="0"/>
         <actor a="0.0" aid="117" c="false" group="3" id="78" name="heagney 117" order="0" sx="1.0" sy="1.0" x="64" y="64" z="2"/>
         <actor a="0.0" aid="118" c="false" group="3" id="78" name="heagney 118" order="1" sx="1.0" sy="1.0" x="96" y="64" z="2"/>
         <actor a="0.0" aid="119" c="false" group="3" id="78" name="heagney 119" order="2" sx="1.0" sy="1.0" x="128" y="64" z="2"/>
@@ -111,6 +107,10 @@
         <actor a="0.0" aid="147" c="false" group="3" id="78" name="heagney 147" order="30" sx="1.0" sy="1.0" x="128" y="160" z="2"/>
         <actor a="0.0" aid="148" c="false" group="3" id="78" name="heagney 148" order="31" sx="1.0" sy="1.0" x="96" y="160" z="2"/>
         <actor a="0.0" aid="149" c="false" group="3" id="78" name="heagney 149" order="32" sx="1.0" sy="1.0" x="64" y="160" z="2"/>
+        <actor a="0.0" aid="150" c="false" group="3" id="71" name="Fence_01 150" order="60" sx="1.0" sy="1.0" x="448" y="192" z="0"/>
+        <actor a="0.0" aid="151" c="false" group="3" id="71" name="Fence_01 151" order="61" sx="1.0" sy="1.0" x="480" y="192" z="0"/>
+        <actor a="0.0" aid="152" c="false" group="3" id="71" name="Fence_01 152" order="62" sx="1.0" sy="1.0" x="480" y="256" z="0"/>
+        <actor a="0.0" aid="153" c="false" group="3" id="71" name="Fence_01 153" order="63" sx="1.0" sy="1.0" x="448" y="256" z="0"/>
     </actors>
     <snippets>
         <s enabled="true" id="6">
