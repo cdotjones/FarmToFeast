@@ -79,7 +79,7 @@ class ActorEvents_80 extends ActorScript
 		{
 			if(wrapper.enabled && sameAsAny(getActorType(0), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				switchScene(GameModel.get().scenes.get(4).getID(), null, createCrossfadeTransition(.2));
+				switchScene(GameModel.get().scenes.get(1).getID(), null, createCrossfadeTransition(.2));
 			}
 		});
 		

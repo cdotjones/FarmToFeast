@@ -73,7 +73,7 @@
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="38" fixedrot="false" fric="0.2" gid="3" id="78" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Corn" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="79" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="38" fixedrot="false" fric="0.2" gid="3" id="78" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Corn" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="79" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="2" defaultAnimation="2" desc="" id="79" name="Corn" readable="false" shared="false">
@@ -85,7 +85,7 @@
         </anim>
     </sprite>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="320" id="90" name="cowpasture" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="480" xpf="1.0" ypf="1.0"/>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="63" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="64" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="63" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="64" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="64" name="Door" readable="false" shared="false">
@@ -111,6 +111,22 @@
             </s>
         </snippets>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="48" fixedrot="false" fric="0.2" gid="3" id="98" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="dummy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="99" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="99" name="dummy" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="48" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="24" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,48,0,48" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="51" fixedrot="false" fric="0.2" gid="3" id="106" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="farm" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="107" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="107" name="farm" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="122" id="0" loop="true" name="Animation 0" numframes="1" originx="43" originy="61" sync="false" version="2" width="87">
+            <poly data="4,0,0,87,0,87,122,0,122" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="75" name="Farm01" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="29" fixedrot="false" fric="0.2" gid="3" id="65" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Fence" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
         <snippets/>
@@ -160,7 +176,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="44" fixedrot="false" fric="0.2" gid="3" id="92" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="GateLeave" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="93" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="44" fixedrot="false" fric="0.2" gid="3" id="92" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="GateLeave" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="93" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="93" name="GateLeave" readable="false" shared="false">
@@ -179,6 +195,21 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="51" name="How to Play" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="189" id="0" loop="true" name="Animation 0" numframes="1" originx="146" originy="94" sync="false" version="1" width="293"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="52" fixedrot="false" fric="0.2" gid="4" id="108" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="inventory" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="109" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="109" name="inventory" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="37" id="0" loop="true" name="Animation 0" numframes="1" originx="54" originy="18" sync="false" version="2" width="109">
+            <poly data="4,0,0,109,0,109,37,0,37" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="49" fixedrot="false" fric="0.2" gid="3" id="100" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="InvisibleBlock" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="101" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="101" name="InvisibleBlock" readable="false" shared="false">
+        <anim across="0" down="0" durations="100" height="1" id="0" loop="true" name="Animation 0" numframes="1" originx="0" originy="0" sync="false" version="2" width="1"/>
+        <anim across="0" down="0" durations="100" height="1" id="1" loop="true" name="Animation 1" numframes="1" originx="0" originy="0" sync="false" version="2" width="1"/>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="20" fixedrot="false" fric="0.2" gid="2" id="56" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Left Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="57" static="false">
         <snippets>
@@ -296,7 +327,26 @@
             </s>
         </snippets>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="53" fixedrot="false" fric="0.2" gid="4" id="110" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="potato" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="111" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="111" name="potato" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="9" sync="false" version="2" width="24">
+            <poly data="4,0,0,24,0,24,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="324" id="91" name="potatofield" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="480" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="50" fixedrot="false" fric="0.2" gid="3" id="102" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="potatoPlant" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="103" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="103" name="potatoPlant" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="62" id="0" loop="false" name="Animation 0" numframes="1" originx="28" originy="31" sync="false" version="2" width="56">
+            <poly data="4,0,0,56,0,56,62,0,62" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="1" loop="true" name="potato" numframes="1" originx="12" originy="9" sync="false" version="2" width="24">
+            <poly data="4,0,0,24,0,24,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="false" fric="0.2" gid="2" id="54" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Right Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="55" static="false">
         <snippets>
             <s enabled="true" id="26">

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="4" desc="" eventsnippetid="14" extheight="544" extwidth="704" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="480" id="0" name="Maze 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+<scene depth="6" desc="" eventsnippetid="14" extheight="544" extwidth="704" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="480" id="0" name="Maze 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <layer blendMode="normal" color="255,200,0" id="3" locked="false" name="Layer 3" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Floor" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,0,255" id="1" locked="false" name="Roof" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Instructions" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,200,0" id="3" locked="false" name="Layer 3" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Floor" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,0,255" id="1" locked="false" name="Roof" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Instructions" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="4" locked="false" name="Layer 4" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,0,255" id="5" locked="false" name="Layer 5" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions>
@@ -16,7 +18,7 @@
         <actor a="0.0" aid="8" c="false" group="3" id="63" name="Door 8" order="0" sx="1.0" sy="1.0" x="160" y="256" z="0"/>
         <actor a="0.0" aid="9" c="false" group="3" id="63" name="Door 9" order="1" sx="1.0" sy="1.0" x="192" y="256" z="0"/>
         <actor a="0.0" aid="16" c="false" group="0" id="0" name="Player 16" order="0" sx="1.0" sy="1.0" x="320" y="224" z="1"/>
-        <actor a="0.0" aid="53" c="false" group="3" id="69" name="Gate 53" order="2" sx="1.0" sy="1.0" x="192" y="192" z="0"/>
+        <actor a="0.0" aid="53" c="false" group="3" id="69" name="Gate 53" order="2" sx="1.0" sy="1.0" x="190" y="192" z="0"/>
         <actor a="0.0" aid="54" c="false" group="3" id="69" name="Gate 54" order="3" sx="1.0" sy="1.0" x="160" y="192" z="0"/>
         <actor a="0.0" aid="55" c="false" group="3" id="71" name="Fence_01 55" order="4" sx="1.0" sy="1.0" x="512" y="192" z="0"/>
         <actor a="0.0" aid="56" c="false" group="3" id="71" name="Fence_01 56" order="5" sx="1.0" sy="1.0" x="544" y="192" z="0"/>
@@ -107,10 +109,24 @@
         <actor a="0.0" aid="147" c="false" group="3" id="78" name="heagney 147" order="30" sx="1.0" sy="1.0" x="128" y="160" z="2"/>
         <actor a="0.0" aid="148" c="false" group="3" id="78" name="heagney 148" order="31" sx="1.0" sy="1.0" x="96" y="160" z="2"/>
         <actor a="0.0" aid="149" c="false" group="3" id="78" name="heagney 149" order="32" sx="1.0" sy="1.0" x="64" y="160" z="2"/>
-        <actor a="0.0" aid="150" c="false" group="3" id="71" name="Fence_01 150" order="60" sx="1.0" sy="1.0" x="448" y="192" z="0"/>
-        <actor a="0.0" aid="151" c="false" group="3" id="71" name="Fence_01 151" order="61" sx="1.0" sy="1.0" x="480" y="192" z="0"/>
-        <actor a="0.0" aid="152" c="false" group="3" id="71" name="Fence_01 152" order="62" sx="1.0" sy="1.0" x="480" y="256" z="0"/>
-        <actor a="0.0" aid="153" c="false" group="3" id="71" name="Fence_01 153" order="63" sx="1.0" sy="1.0" x="448" y="256" z="0"/>
+        <actor a="0.0" aid="152" c="false" group="3" id="71" name="Fence_01 152" order="60" sx="1.0" sy="1.0" x="480" y="256" z="0"/>
+        <actor a="0.0" aid="153" c="false" group="3" id="71" name="Fence_01 153" order="61" sx="1.0" sy="1.0" x="448" y="256" z="0"/>
+        <actor a="0.0" aid="154" c="false" group="3" id="80" name="Gate03 154" order="62" sx="1.0" sy="1.0" x="449" y="192" z="0"/>
+        <actor a="0.0" aid="155" c="false" group="3" id="80" name="Gate03 155" order="63" sx="1.0" sy="1.0" x="481" y="192" z="0"/>
+        <actor a="0.0" aid="156" c="false" group="3" id="102" name="potatoPlant 156" order="64" sx="1.0" sy="1.0" x="353" y="129" z="0"/>
+        <actor a="0.0" aid="157" c="false" group="3" id="102" name="potatoPlant 157" order="65" sx="1.0" sy="1.0" x="443" y="130" z="0"/>
+        <actor a="0.0" aid="158" c="false" group="3" id="102" name="potatoPlant 158" order="66" sx="1.0" sy="1.0" x="526" y="131" z="0"/>
+        <actor a="0.0" aid="159" c="false" group="3" id="102" name="potatoPlant 159" order="67" sx="1.0" sy="1.0" x="520" y="54" z="0"/>
+        <actor a="0.0" aid="160" c="false" group="3" id="102" name="potatoPlant 160" order="68" sx="1.0" sy="1.0" x="439" y="51" z="0"/>
+        <actor a="0.0" aid="161" c="false" group="3" id="102" name="potatoPlant 161" order="69" sx="1.0" sy="1.0" x="359" y="48" z="0"/>
+        <actor a="0.0" aid="162" c="false" group="3" id="106" name="farm 162" order="70" sx="1.0" sy="1.0" x="147" y="283" z="0"/>
+        <actor a="0.0" aid="163" c="false" group="3" id="78" name="Corn 163" order="71" sx="1.0" sy="1.0" x="70" y="294" z="0"/>
+        <actor a="0.0" aid="164" c="false" group="3" id="78" name="Corn 164" order="72" sx="1.0" sy="1.0" x="102" y="328" z="0"/>
+        <actor a="0.0" aid="165" c="false" group="3" id="102" name="potatoPlant 165" order="73" sx="1.0" sy="1.0" x="241" y="351" z="0"/>
+        <actor a="0.0" aid="166" c="false" group="3" id="102" name="potatoPlant 166" order="74" sx="1.0" sy="1.0" x="276" y="273" z="0"/>
+        <actor a="0.0" aid="167" c="false" group="3" id="98" name="dummy 167" order="75" sx="1.0" sy="1.0" x="65" y="364" z="0"/>
+        <actor a="0.0" aid="170" c="false" group="4" id="108" name="inventory 170" order="0" sx="1.0" sy="1.0" x="287" y="180" z="4"/>
+        <actor a="0.0" aid="171" c="false" group="4" id="110" name="potato 171" order="0" sx="1.0" sy="1.0" x="325" y="195" z="5"/>
     </actors>
     <snippets>
         <s enabled="true" id="6">

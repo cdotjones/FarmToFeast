@@ -1,2 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-xy comment="false" x="26" y="40">
+                    <ACTOR eid="11" id="0"/>
+                    <int id="1" val="0"/>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="1" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-xy>
+                <set-xy comment="false" x="26" y="80">
+                    <ACTOR eid="11" id="0"/>
+                    <int id="1" val="1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <int id="1" val="50"/>
+                    </minus>
+                </set-xy>
+                <set-xy comment="false" x="26" y="125">
+                    <ACTOR eid="12" id="0"/>
+                    <int id="1" val="0"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <int id="1" val="50"/>
+                    </plus>
+                </set-xy>
+                <set-xy comment="false" x="26" y="170">
+                    <ACTOR eid="12" id="0"/>
+                    <int id="1" val="1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <int id="1" val="35"/>
+                    </minus>
+                </set-xy>
+                <if comment="false" x="26" y="215">
+                    <group eventID="1" id="-1">
+                        <toggle-image comment="false" x="37" y="245">
+                            <ACTOR eid="12" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <toggle-image comment="false" x="26" y="40">
+                    <ACTOR eid="12" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <if comment="false" x="26" y="67">
+                    <group eventID="2" id="-1">
+                        <toggle-image comment="false" x="37" y="92">
+                            <ACTOR eid="12" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                    </group>
+                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

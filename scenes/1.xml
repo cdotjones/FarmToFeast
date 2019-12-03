@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="0" desc="" eventsnippetid="28" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="1" name="Main Screen" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+<scene depth="2" desc="" eventsnippetid="28" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="1" name="Main Screen" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="potatofield" opacity="100" order="0" rid="91" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="potatofield" opacity="100" order="2" rid="91" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Layer 2" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="3" locked="false" name="Layer 3" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Player 1" order="0" sx="1.0" sy="1.0" x="225" y="283" z="2"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="98" name="dummy 2" order="1" sx="1.0" sy="1.0" x="39" y="231" z="2"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="102" name="potatoPlant 3" order="2" sx="1.0" sy="1.0" x="359" y="213" z="2"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="92" name="GateLeave 4" order="3" sx="1.0" sy="1.0" x="159" y="321" z="2"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="92" name="GateLeave 5" order="4" sx="1.0" sy="1.0" x="207" y="321" z="2"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="92" name="GateLeave 6" order="5" sx="1.0" sy="1.0" x="257" y="322" z="2"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="92" name="GateLeave 7" order="6" sx="1.0" sy="1.0" x="306" y="322" z="2"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="92" name="GateLeave 8" order="7" sx="1.0" sy="1.0" x="226" y="310" z="2"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="92" name="GateLeave 9" order="8" sx="1.0" sy="1.0" x="185" y="309" z="2"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="92" name="GateLeave 10" order="9" sx="1.0" sy="1.0" x="270" y="310" z="2"/>
+        <actor a="0.0" aid="11" c="false" group="4" id="108" name="inventory 11" order="10" sx="1.0" sy="1.0" x="188" y="238" z="2"/>
+        <actor a="0.0" aid="12" c="false" group="4" id="110" name="potato 12" order="0" sx="1.0" sy="1.0" x="228" y="253" z="3"/>
+    </actors>
     <snippets/>
     <terrain/>
     <atlases members="" retainAtlases="true"/>
