@@ -10,6 +10,11 @@
     <terrainRegions/>
     <actors>
         <actor a="0.0" aid="1" c="false" group="0" id="0" name="Player 1" order="0" sx="1.0" sy="1.0" x="212" y="28" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="92" name="GateLeave 2" order="1" sx="1.0" sy="1.0" x="204" y="-24" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="92" name="GateLeave 3" order="2" sx="1.0" sy="1.0" x="235" y="-24" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="112" name="Cow1 4" order="3" sx="1.0" sy="1.0" x="63" y="101" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="114" name="Cow2 5" order="4" sx="1.0" sy="1.0" x="385" y="94" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="114" name="Cow2 6" order="5" sx="1.0" sy="1.0" x="197" y="165" z="0"/>
     </actors>
     <snippets/>
     <terrain/>

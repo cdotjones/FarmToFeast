@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="1" id="-1">
+                        <set-val-56-1 comment="false" x="37" y="72">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-56-1>
+                        <dolater comment="false" x="37" y="97">
+                            <group eventID="1" id="-1">
+                                <set-val-56-1 comment="false" x="48" y="124">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-56-1>
+                                <set-game-val-2 comment="false" x="48" y="149">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-2>
+                                <die comment="false" x="48" y="174">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                            <int id="0" val="1"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-56-2 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="225">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="245">
+                            <group eventID="1" id="-1">
+                                <setanim comment="false" x="48" y="270">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Corn"/>
+                                </setanim>
+                                <set-val-56-2 comment="false" x="48" y="297">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-56-2>
+                            </group>
+                            <get-val-56-3 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                </else>
+            </group>
+            <control eid="7" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <to-screen-space comment="false" x="37" y="70"/>
+                        <set-color comment="false" x="37" y="90">
+                            <color b="255" g="255" id="0" r="255"/>
+                        </set-color>
+                        <drawfill-rect comment="false" x="37" y="117">
+                            <int id="0" val="1"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="200"/>
+                            <int id="3" val="500"/>
+                            <int id="4" val="100"/>
+                        </drawfill-rect>
+                        <draw-text comment="false" x="37" y="144">
+                            <int id="0" val="    The corn was added to your inventory"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="200"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-56-1 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-56-3 comment="false" x="26" y="47">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-56-3>
+            </group>
+            <actortype eid="116" id="0"/>
+            <actortype eid="0" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

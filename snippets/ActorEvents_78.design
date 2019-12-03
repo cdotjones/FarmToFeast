@@ -3,36 +3,169 @@
     <group eventID="1" id="0">
         <event-key-press-release comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <setanim comment="false" x="26" y="42">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="Cob"/>
-                </setanim>
+                <set-val-38-1 comment="false" x="26" y="42">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-38-1>
             </group>
             <control eid="7" id="0"/>
             <int id="1" val="0"/>
         </event-key-press-release>
     </group>
-    <group eventID="1" id="-1"/>
-    <group eventID="2" id="0">
-        <step comment="false" x="15" y="15">
-            <group eventID="2" id="-1"/>
-        </step>
+    <group eventID="1" id="2">
+        <setanim comment="false" x="649" y="88">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="Cob"/>
+        </setanim>
     </group>
-    <group eventID="2" id="1">
-        <if comment="false" x="50" y="228">
-            <group eventID="2" id="-1">
-                <create-actor3 comment="false" x="61" y="261">
-                    <actortype eid="96" id="0"/>
-                    <int id="1" val="330"/>
-                    <int id="2" val="298"/>
-                    <int id="3" val="0"/>
-                </create-actor3>
+    <group eventID="1" id="3">
+        <dolater comment="false" x="287" y="168">
+            <group eventID="1" id="-1">
+                <set-val-38-1 comment="false" x="298" y="195">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-38-1>
+                <set-game-val-2 comment="false" x="298" y="220">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-2>
+                <die comment="false" x="298" y="245">
+                    <ACTOR eid="this" id="0"/>
+                </die>
             </group>
-            <keystate comment="false" id="0" x="0" y="0">
-                <int id="0" val="1"/>
-                <control eid="8" id="1"/>
-            </keystate>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="2"/>
+        </dolater>
+        <else comment="false" x="287" y="284">
+            <group eventID="1" id="-1">
+                <if comment="false" x="298" y="304">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="309" y="329">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Cob"/>
+                        </setanim>
+                        <set-val-38-2 comment="false" x="309" y="356">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-38-2>
+                    </group>
+                    <get-val-38-3 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </else>
+    </group>
+    <group eventID="1" id="4">
+        <if comment="false" x="637" y="173">
+            <group eventID="1" id="-1"/>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-val-38-2 comment="false" id="0" x="0" y="0"/>
+                <true comment="false" id="1" x="0" y="0"/>
+            </eq>
         </if>
     </group>
-    <group eventID="2" id="-1"/>
+    <group eventID="1" id="-1"/>
+    <group eventID="3" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <to-screen-space comment="false" x="37" y="70"/>
+                        <set-color comment="false" x="37" y="90">
+                            <color b="255" g="255" id="0" r="255"/>
+                        </set-color>
+                        <drawfill-rect comment="false" x="37" y="117">
+                            <int id="0" val="1"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="200"/>
+                            <int id="3" val="500"/>
+                            <int id="4" val="100"/>
+                        </drawfill-rect>
+                        <draw-text comment="false" x="37" y="144">
+                            <int id="0" val="    The corn was added to your inventory"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="200"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-38-1 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-typetotype comment="false" x="17" y="16">
+            <group eventID="4" id="-1">
+                <set-val-38-3 comment="false" x="28" y="48">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-38-3>
+            </group>
+            <actortype eid="0" id="0"/>
+            <actortype eid="78" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-val-38-1 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-38-1>
+                <set-val-38-2 comment="false" x="26" y="65">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-38-2>
+                <set-val-38-3 comment="false" x="26" y="90">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-38-3>
+            </group>
+        </init>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="6" id="-1"/>
+        </step>
+    </group>
+    <group eventID="6" id="1">
+        <if comment="false" x="507" y="-18">
+            <group eventID="6" id="-1">
+                <set-val-38-1 comment="false" x="518" y="12">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-38-1>
+                <dolater comment="false" x="518" y="37">
+                    <group eventID="6" id="-1">
+                        <set-val-38-1 comment="false" x="529" y="64">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-38-1>
+                        <set-game-val-2 comment="false" x="529" y="89">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-2>
+                        <die comment="false" x="529" y="114">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-val-38-2 comment="false" id="0" x="0" y="0"/>
+                <true comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </if>
+        <else comment="false" x="507" y="165">
+            <group eventID="6" id="-1">
+                <setanim comment="false" x="518" y="185">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Cob"/>
+                </setanim>
+                <set-val-38-2 comment="false" x="518" y="212">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-38-2>
+            </group>
+        </else>
+        <if comment="false" x="507" y="249">
+            <group eventID="6" id="-1"/>
+            <get-val-38-3 comment="false" id="0" x="0" y="0"/>
+        </if>
+    </group>
+    <group eventID="6" id="-1"/>
 </groups>

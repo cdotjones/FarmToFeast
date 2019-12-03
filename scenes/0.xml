@@ -109,24 +109,28 @@
         <actor a="0.0" aid="147" c="false" group="3" id="78" name="heagney 147" order="30" sx="1.0" sy="1.0" x="128" y="160" z="2"/>
         <actor a="0.0" aid="148" c="false" group="3" id="78" name="heagney 148" order="31" sx="1.0" sy="1.0" x="96" y="160" z="2"/>
         <actor a="0.0" aid="149" c="false" group="3" id="78" name="heagney 149" order="32" sx="1.0" sy="1.0" x="64" y="160" z="2"/>
-        <actor a="0.0" aid="152" c="false" group="3" id="71" name="Fence_01 152" order="60" sx="1.0" sy="1.0" x="480" y="256" z="0"/>
-        <actor a="0.0" aid="153" c="false" group="3" id="71" name="Fence_01 153" order="61" sx="1.0" sy="1.0" x="448" y="256" z="0"/>
-        <actor a="0.0" aid="154" c="false" group="3" id="80" name="Gate03 154" order="62" sx="1.0" sy="1.0" x="449" y="192" z="0"/>
-        <actor a="0.0" aid="155" c="false" group="3" id="80" name="Gate03 155" order="63" sx="1.0" sy="1.0" x="481" y="192" z="0"/>
-        <actor a="0.0" aid="156" c="false" group="3" id="102" name="potatoPlant 156" order="64" sx="1.0" sy="1.0" x="353" y="129" z="0"/>
-        <actor a="0.0" aid="157" c="false" group="3" id="102" name="potatoPlant 157" order="65" sx="1.0" sy="1.0" x="443" y="130" z="0"/>
-        <actor a="0.0" aid="158" c="false" group="3" id="102" name="potatoPlant 158" order="66" sx="1.0" sy="1.0" x="526" y="131" z="0"/>
-        <actor a="0.0" aid="159" c="false" group="3" id="102" name="potatoPlant 159" order="67" sx="1.0" sy="1.0" x="520" y="54" z="0"/>
-        <actor a="0.0" aid="160" c="false" group="3" id="102" name="potatoPlant 160" order="68" sx="1.0" sy="1.0" x="439" y="51" z="0"/>
-        <actor a="0.0" aid="161" c="false" group="3" id="102" name="potatoPlant 161" order="69" sx="1.0" sy="1.0" x="359" y="48" z="0"/>
-        <actor a="0.0" aid="162" c="false" group="3" id="106" name="farm 162" order="70" sx="1.0" sy="1.0" x="147" y="283" z="0"/>
-        <actor a="0.0" aid="163" c="false" group="3" id="78" name="Corn 163" order="71" sx="1.0" sy="1.0" x="70" y="294" z="0"/>
-        <actor a="0.0" aid="164" c="false" group="3" id="78" name="Corn 164" order="72" sx="1.0" sy="1.0" x="102" y="328" z="0"/>
-        <actor a="0.0" aid="165" c="false" group="3" id="102" name="potatoPlant 165" order="73" sx="1.0" sy="1.0" x="241" y="351" z="0"/>
-        <actor a="0.0" aid="166" c="false" group="3" id="102" name="potatoPlant 166" order="74" sx="1.0" sy="1.0" x="276" y="273" z="0"/>
-        <actor a="0.0" aid="167" c="false" group="3" id="98" name="dummy 167" order="75" sx="1.0" sy="1.0" x="65" y="364" z="0"/>
+        <actor a="0.0" aid="154" c="false" group="3" id="80" name="Gate03 154" order="60" sx="1.0" sy="1.0" x="449" y="192" z="0"/>
+        <actor a="0.0" aid="155" c="false" group="3" id="80" name="Gate03 155" order="61" sx="1.0" sy="1.0" x="481" y="192" z="0"/>
+        <actor a="0.0" aid="156" c="false" group="3" id="102" name="potatoPlant 156" order="62" sx="1.0" sy="1.0" x="353" y="129" z="0"/>
+        <actor a="0.0" aid="157" c="false" group="3" id="102" name="potatoPlant 157" order="63" sx="1.0" sy="1.0" x="443" y="130" z="0"/>
+        <actor a="0.0" aid="158" c="false" group="3" id="102" name="potatoPlant 158" order="64" sx="1.0" sy="1.0" x="526" y="131" z="0"/>
+        <actor a="0.0" aid="159" c="false" group="3" id="102" name="potatoPlant 159" order="65" sx="1.0" sy="1.0" x="520" y="54" z="0"/>
+        <actor a="0.0" aid="160" c="false" group="3" id="102" name="potatoPlant 160" order="66" sx="1.0" sy="1.0" x="439" y="51" z="0"/>
+        <actor a="0.0" aid="161" c="false" group="3" id="102" name="potatoPlant 161" order="67" sx="1.0" sy="1.0" x="359" y="48" z="0"/>
+        <actor a="0.0" aid="162" c="false" group="3" id="106" name="farm 162" order="68" sx="1.0" sy="1.0" x="147" y="283" z="0"/>
+        <actor a="0.0" aid="163" c="false" group="3" id="78" name="Corn 163" order="69" sx="1.0" sy="1.0" x="70" y="294" z="0"/>
+        <actor a="0.0" aid="164" c="false" group="3" id="78" name="Corn 164" order="70" sx="1.0" sy="1.0" x="102" y="328" z="0"/>
+        <actor a="0.0" aid="165" c="false" group="3" id="102" name="potatoPlant 165" order="71" sx="1.0" sy="1.0" x="241" y="351" z="0"/>
+        <actor a="0.0" aid="166" c="false" group="3" id="102" name="potatoPlant 166" order="72" sx="1.0" sy="1.0" x="276" y="273" z="0"/>
+        <actor a="0.0" aid="167" c="false" group="3" id="98" name="dummy 167" order="73" sx="1.0" sy="1.0" x="65" y="364" z="0"/>
         <actor a="0.0" aid="170" c="false" group="4" id="108" name="inventory 170" order="0" sx="1.0" sy="1.0" x="287" y="180" z="4"/>
         <actor a="0.0" aid="171" c="false" group="4" id="110" name="potato 171" order="0" sx="1.0" sy="1.0" x="325" y="195" z="5"/>
+        <actor a="0.0" aid="172" c="false" group="3" id="76" name="Gate02 172" order="74" sx="1.0" sy="1.0" x="449" y="256" z="0"/>
+        <actor a="0.0" aid="173" c="false" group="3" id="76" name="Gate02 173" order="75" sx="1.0" sy="1.0" x="481" y="256" z="0"/>
+        <actor a="0.0" aid="174" c="false" group="3" id="96" name="CobPickUp 174" order="1" sx="1.0" sy="1.0" x="301" y="197" z="5"/>
+        <actor a="0.0" aid="175" c="false" group="3" id="112" name="Cow1 175" order="2" sx="1.0" sy="1.0" x="376" y="313" z="5"/>
+        <actor a="0.0" aid="176" c="false" group="3" id="114" name="Cow2 176" order="3" sx="1.0" sy="1.0" x="529" y="304" z="5"/>
+        <actor a="0.0" aid="177" c="false" group="3" id="114" name="Cow2 177" order="4" sx="1.0" sy="1.0" x="459" y="380" z="5"/>
     </actors>
     <snippets>
         <s enabled="true" id="6">

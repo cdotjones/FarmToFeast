@@ -15,10 +15,10 @@
         <e enabled="false" id="test-flash"/>
     </exts>
     <bundles>
-        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Mac App Store" version="1.0"/>
         <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="" store="Windows Store" version="1.0"/>
-        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="App Store" version="1.0"/>
         <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Google Play" version="1.0"/>
+        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="App Store" version="1.0"/>
+        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Mac App Store" version="1.0"/>
     </bundles>
     <scales>
         <scale detailed="1x" id="0" name="1x" size="1.0"/>
@@ -95,6 +95,7 @@
     <props/>
     <attributes>
         <boolean cid="-1" id="0" name="firstTime" save="true" value="true"/>
+        <boolean cid="-1" id="2" name="cornPicked" save="true" value="false"/>
         <boolean cid="-1" id="1" name="potatoPicked" save="true" value="false"/>
     </attributes>
     <collisions>
@@ -102,7 +103,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,31,39,45,47,48,50,52,54,56,58,60,62,63,65,69,71,73,75,76,78,80,82,83,84,86,87,90,91,92,96,98,100,102,106,108,110," name="Main Atlas (Default)" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,31,39,45,47,48,50,52,54,56,58,60,62,63,65,69,71,73,75,76,78,80,82,83,84,86,87,90,91,92,96,98,100,102,106,108,110,112,114,116," name="Main Atlas (Default)" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

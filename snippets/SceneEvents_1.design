@@ -67,17 +67,53 @@
                     <ACTOR eid="12" id="0"/>
                     <int id="1" val="1"/>
                 </toggle-image>
-                <if comment="false" x="26" y="67">
+                <toggle-image comment="false" x="26" y="67">
+                    <ACTOR eid="13" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <if comment="false" x="26" y="94">
                     <group eventID="2" id="-1">
-                        <toggle-image comment="false" x="37" y="92">
+                        <toggle-image comment="false" x="37" y="119">
                             <ACTOR eid="12" id="0"/>
                             <int id="1" val="0"/>
                         </toggle-image>
                     </group>
                     <get-game-val-1 comment="false" id="0" x="0" y="0"/>
                 </if>
+                <if comment="false" x="26" y="158">
+                    <group eventID="2" id="-1">
+                        <toggle-image comment="false" x="37" y="183">
+                            <ACTOR eid="13" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                    </group>
+                    <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="26" y="222">
+                    <group eventID="2" id="-1">
+                        <set-game-val-0 comment="false" x="37" y="247">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-0>
+                    </group>
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                </if>
             </group>
         </init>
+    </group>
+    <group eventID="2" id="1">
+        <toggle-image comment="false" x="362" y="295">
+            <ACTOR eid="12" id="0"/>
+            <int id="1" val="1"/>
+        </toggle-image>
+        <if comment="false" x="362" y="322">
+            <group eventID="2" id="-1">
+                <toggle-image comment="false" x="373" y="347">
+                    <ACTOR eid="12" id="0"/>
+                    <int id="1" val="0"/>
+                </toggle-image>
+            </group>
+            <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+        </if>
     </group>
     <group eventID="2" id="-1"/>
 </groups>

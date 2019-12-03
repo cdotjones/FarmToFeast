@@ -61,7 +61,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_96 extends ActorScript
+class ActorEvents_108 extends ActorScript
 {
 	
 	
@@ -73,6 +73,9 @@ class ActorEvents_96 extends ActorScript
 	
 	override public function init()
 	{
+		
+		/* ======================== When Creating ========================= */
+		actor.makeAlwaysSimulate();
 		
 	}
 	

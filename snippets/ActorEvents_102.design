@@ -50,21 +50,12 @@
             <int id="1" val="0"/>
         </event-key-press-release>
     </group>
-    <group eventID="5" id="8">
-        <if comment="false" x="626" y="109">
-            <group eventID="5" id="-1"/>
-            <eq comment="false" id="0" x="0" y="0">
-                <get-val-50-3 comment="false" id="0" x="0" y="0"/>
-                <true comment="false" id="1" x="0" y="0"/>
-            </eq>
-        </if>
-    </group>
-    <group eventID="1" id="12">
+    <group eventID="1" id="1">
         <set-val-50-3 comment="false" x="711" y="207">
             <false comment="false" id="0" x="0" y="0"/>
         </set-val-50-3>
     </group>
-    <group eventID="1" id="13">
+    <group eventID="1" id="2">
         <to-screen-space comment="false" x="414" y="285"/>
         <set-color comment="false" x="414" y="305">
             <color b="255" g="255" id="0" r="255"/>
@@ -114,6 +105,15 @@
     </group>
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
+        <if comment="false" x="626" y="109">
+            <group eventID="5" id="-1"/>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-val-50-3 comment="false" id="0" x="0" y="0"/>
+                <true comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </if>
+    </group>
+    <group eventID="5" id="1">
         <draw comment="false" x="15" y="15">
             <group eventID="5" id="-1">
                 <if comment="false" x="26" y="40">
@@ -143,19 +143,19 @@
             </group>
         </draw>
     </group>
-    <group eventID="5" id="4">
+    <group eventID="5" id="2">
         <draw-text comment="false" x="698" y="349">
             <int id="0" val="    to enter the Farm"/>
             <int id="1" val="0"/>
             <int id="2" val="250"/>
         </draw-text>
     </group>
-    <group eventID="5" id="8">
+    <group eventID="5" id="3">
         <set-val-50-3 comment="false" x="744" y="214">
             <false comment="false" id="0" x="0" y="0"/>
         </set-val-50-3>
     </group>
-    <group eventID="5" id="9">
+    <group eventID="5" id="4">
         <if comment="false" x="612" y="395">
             <group eventID="5" id="-1">
                 <to-screen-space comment="false" x="623" y="425"/>
