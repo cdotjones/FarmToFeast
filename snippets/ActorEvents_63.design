@@ -6,15 +6,15 @@
                 <if comment="false" x="29" y="61">
                     <group eventID="4" id="-1">
                         <scene-change-through comment="false" x="40" y="91">
-                            <scene eid="1" id="0"/>
+                            <scene eid="5" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val=".2"/>
                         </scene-change-through>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-27-1 comment="false" id="0" x="0" y="0"/>
-                        <true comment="false" id="1" x="0" y="0"/>
-                    </eq>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-2 comment="false" id="1" x="0" y="0"/>
+                    </and>
                 </if>
                 <else comment="false" x="29" y="130">
                     <group eventID="4" id="-1">
@@ -28,15 +28,15 @@
             <actortype eid="0" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="4" id="8">
+    <group eventID="4" id="1">
         <to-screen-space comment="false" x="906" y="262"/>
     </group>
-    <group eventID="4" id="11">
+    <group eventID="4" id="2">
         <set-val-27-1 comment="false" x="555" y="678">
             <false comment="false" id="0" x="0" y="0"/>
         </set-val-27-1>
     </group>
-    <group eventID="4" id="12">
+    <group eventID="4" id="3">
         <draw-text comment="false" x="17" y="384">
             <int id="0" val="You have to collect all the ingredients to enter the Farm"/>
             <get-xy comment="false" id="1" x="0" y="0">
@@ -49,10 +49,19 @@
             </get-xy>
         </draw-text>
     </group>
-    <group eventID="4" id="14">
+    <group eventID="4" id="4">
         <set-val-27-2 comment="false" x="61" y="262">
             <false comment="false" id="0" x="0" y="0"/>
         </set-val-27-2>
+    </group>
+    <group eventID="4" id="5">
+        <if comment="false" x="703" y="41">
+            <group eventID="4" id="-1"/>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-val-27-1 comment="false" id="0" x="0" y="0"/>
+                <true comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </if>
     </group>
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
@@ -93,7 +102,7 @@
             </group>
         </draw>
     </group>
-    <group eventID="5" id="4">
+    <group eventID="5" id="1">
         <set-color comment="false" x="151" y="302">
             <color b="255" g="255" id="0" r="255"/>
         </set-color>
@@ -105,14 +114,23 @@
             <int id="4" val="100"/>
         </drawfill-rect>
     </group>
+    <group eventID="5" id="5">
+        <if comment="false" x="741" y="651">
+            <group eventID="5" id="-1"/>
+            <and comment="false" id="0" x="0" y="0">
+                <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                <get-game-val-2 comment="false" id="1" x="0" y="0"/>
+            </and>
+        </if>
+    </group>
     <group eventID="5" id="-1">
-        <get-xy comment="false" x="558" y="200">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="1"/>
-        </get-xy>
         <get-xy comment="false" x="616" y="262">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="0"/>
+        </get-xy>
+        <get-xy comment="false" x="558" y="200">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
         </get-xy>
     </group>
     <group eventID="6" id="0">
@@ -120,7 +138,7 @@
             <group eventID="6" id="-1"/>
         </step>
     </group>
-    <group eventID="6" id="2">
+    <group eventID="6" id="1">
         <set-val-27-2 comment="false" x="71" y="84">
             <false comment="false" id="0" x="0" y="0"/>
         </set-val-27-2>

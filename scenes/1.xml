@@ -23,6 +23,7 @@
         <actor a="0.0" aid="11" c="false" group="4" id="108" name="inventory 11" order="10" sx="1.0" sy="1.0" x="188" y="238" z="2"/>
         <actor a="0.0" aid="12" c="false" group="4" id="110" name="potato 12" order="0" sx="1.0" sy="1.0" x="228" y="253" z="3"/>
         <actor a="0.0" aid="13" c="false" group="3" id="96" name="CobPickUp 13" order="1" sx="1.0" sy="1.0" x="199" y="249" z="3"/>
+        <actor a="0.0" aid="14" c="false" group="4" id="118" name="Space 14" order="2" sx="1.0" sy="1.0" x="348" y="165" z="3"/>
     </actors>
     <snippets/>
     <terrain/>

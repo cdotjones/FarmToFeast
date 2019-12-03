@@ -61,60 +61,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_63 extends ActorScript
+class ActorEvents_114 extends ActorScript
 {
-	public var _allCollected:Bool;
-	public var _message:Bool;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("allCollected", "_allCollected");
-		_allCollected = false;
-		nameMap.set("message", "_message");
-		_message = false;
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		_allCollected = false;
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(0), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				if((_allCollected == true))
-				{
-					switchScene(GameModel.get().scenes.get(1).getID(), null, createCrossfadeTransition(.2));
-				}
-				else
-				{
-					_message = true;
-				}
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((_message == true))
-				{
-					g.translateToScreen();
-					g.fillColor = Utils.convertColor(Utils.getColorRGB(255,255,255));
-					g.fillRect(0, 200, 500, 100);
-					g.drawString("" + "    You have to collect all the ingredients", 0, 200);
-					g.drawString("" + "    to enter the Farm", 0, 250);
-				}
-				_message = false;
-			}
-		});
 		
 	}
 	

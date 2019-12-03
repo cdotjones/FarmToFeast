@@ -102,6 +102,9 @@
         <anim across="1" down="1" durations="100" height="60" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="30" sync="false" version="2" width="60">
             <poly data="4,0,0,60,0,60,60,0,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
+        <anim across="1" down="1" durations="100" height="21" id="1" loop="true" name="meat" numframes="1" originx="20" originy="10" sync="false" version="2" width="41">
+            <poly data="4,0,0,41,0,41,21,0,21" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="55" fixedrot="false" fric="0.2" gid="3" id="114" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Cow2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="115" static="true">
         <snippets/>
@@ -155,6 +158,7 @@
         </anim>
     </sprite>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="75" name="Farm01" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="32" id="120" name="Farm_Inside" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="32" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="29" fixedrot="false" fric="0.2" gid="3" id="65" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Fence" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
         <snippets/>
     </actor>
@@ -238,6 +242,7 @@
         <anim across="1" down="1" durations="100" height="16" id="0" loop="true" name="Animation 0" numframes="1" originx="0" originy="0" sync="false" version="2" width="16"/>
         <anim across="1" down="1" durations="100" height="16" id="1" loop="true" name="Animation 1" numframes="1" originx="0" originy="0" sync="false" version="2" width="16"/>
     </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="320" id="121" name="Kitchen_Background" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="480" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="20" fixedrot="false" fric="0.2" gid="2" id="56" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Left Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="57" static="false">
         <snippets>
             <s enabled="true" id="26">
@@ -306,6 +311,14 @@
         <tile collision="-1" data="" durations="100" frames="46" id="46" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="47" id="47" order="-1"/>
     </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="59" fixedrot="false" fric="0.2" gid="4" id="122" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Meat" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="123" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="123" name="Meat" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="21" id="0" loop="true" name="Animation 0" numframes="1" originx="20" originy="10" sync="false" version="2" width="41">
+            <poly data="4,0,0,41,0,41,21,0,21" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <music atlasID="0" desc="" id="62" loop="true" name="Music" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="40" fixedrot="false" fric="0.2" gid="3" id="84" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Play" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="85" static="true">
         <snippets/>
@@ -394,6 +407,14 @@
     </actor>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="116" id="82" name="Sky" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="154" xpf="1.0" ypf="1.0"/>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="86" name="Sky02" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="57" fixedrot="false" fric="0.2" gid="4" id="118" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Space" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="119" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="119" name="Space" readable="false" shared="false">
+        <anim across="2" down="1" durations="300,300" height="64" id="0" loop="true" name="Animation 0" numframes="2" originx="32" originy="32" sync="false" version="2" width="128">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="25" fixedrot="false" fric="0.2" gid="3" id="48" ignoreg="false" inertia="0.01" ldamp="0.0" mass="0.1" name="Stairs" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="49" static="false">
         <snippets/>
     </actor>

@@ -65,6 +65,8 @@
         <actor a="0.0" aid="55" c="false" group="4" id="110" name="potato 55" order="0" sx="1.0" sy="1.0" x="233" y="194" z="3"/>
         <actor a="0.0" aid="56" c="false" group="3" id="96" name="CobPickUp 56" order="1" sx="1.0" sy="1.0" x="204" y="195" z="3"/>
         <actor a="0.0" aid="57" c="false" group="3" id="116" name="Corn2 57" order="50" sx="1.0" sy="1.0" x="392" y="186" z="0"/>
+        <actor a="0.0" aid="58" c="false" group="4" id="118" name="Space 58" order="2" sx="1.0" sy="1.0" x="375" y="138" z="3"/>
+        <actor a="0.0" aid="59" c="false" group="4" id="122" name="Meat 59" order="3" sx="1.0" sy="1.0" x="265" y="187" z="3"/>
     </actors>
     <snippets/>
     <terrain/>

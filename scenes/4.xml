@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="1" desc="" eventsnippetid="43" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="4" name="cowpatch" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+<scene depth="2" desc="" eventsnippetid="43" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="4" name="cowpatch" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="cowpasture" opacity="100" order="1" rid="90" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="cowpasture" opacity="100" order="2" rid="90" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Layer 2" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
@@ -15,6 +16,11 @@
         <actor a="0.0" aid="4" c="false" group="3" id="112" name="Cow1 4" order="3" sx="1.0" sy="1.0" x="63" y="101" z="0"/>
         <actor a="0.0" aid="5" c="false" group="3" id="114" name="Cow2 5" order="4" sx="1.0" sy="1.0" x="385" y="94" z="0"/>
         <actor a="0.0" aid="6" c="false" group="3" id="114" name="Cow2 6" order="5" sx="1.0" sy="1.0" x="197" y="165" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="108" name="inventory 7" order="6" sx="1.0" sy="1.0" x="171" y="-10" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="4" id="118" name="Space 11" order="0" sx="1.0" sy="1.0" x="67" y="57" z="2"/>
+        <actor a="0.0" aid="12" c="false" group="4" id="110" name="potato 12" order="1" sx="1.0" sy="1.0" x="218" y="2" z="2"/>
+        <actor a="0.0" aid="13" c="false" group="4" id="122" name="Meat 13" order="2" sx="1.0" sy="1.0" x="247" y="0" z="2"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="96" name="CobPickUp 14" order="3" sx="1.0" sy="1.0" x="186" y="1" z="2"/>
     </actors>
     <snippets/>
     <terrain/>

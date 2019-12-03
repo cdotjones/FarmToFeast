@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="3" desc="" eventsnippetid="58" extheight="384" extwidth="544" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="320" id="5" name="Kitchen" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="Kitchen_Background" opacity="100" order="3" rid="121" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="3" locked="true" name="Kitchen_Background" opacity="100" order="2" rid="121" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Layer 2" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="4" locked="false" name="Layer 4" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Player 1" order="0" sx="1.0" sy="1.0" x="230" y="21" z="2"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="92" name="GateLeave 2" order="1" sx="1.0" sy="1.0" x="199" y="-21" z="2"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="92" name="GateLeave 3" order="2" sx="1.0" sy="1.0" x="232" y="-21" z="2"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="92" name="GateLeave 4" order="3" sx="1.0" sy="1.0" x="263" y="-22" z="2"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="108" name="inventory 5" order="4" sx="1.0" sy="1.0" x="194" y="-19" z="2"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="110" name="potato 6" order="0" sx="1.0" sy="1.0" x="233" y="-2" z="4"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="122" name="Meat 7" order="1" sx="1.0" sy="1.0" x="265" y="-6" z="4"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="96" name="CobPickUp 8" order="2" sx="1.0" sy="1.0" x="208" y="-6" z="4"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

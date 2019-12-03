@@ -131,6 +131,7 @@
         <actor a="0.0" aid="175" c="false" group="3" id="112" name="Cow1 175" order="2" sx="1.0" sy="1.0" x="376" y="313" z="5"/>
         <actor a="0.0" aid="176" c="false" group="3" id="114" name="Cow2 176" order="3" sx="1.0" sy="1.0" x="529" y="304" z="5"/>
         <actor a="0.0" aid="177" c="false" group="3" id="114" name="Cow2 177" order="4" sx="1.0" sy="1.0" x="459" y="380" z="5"/>
+        <actor a="0.0" aid="178" c="false" group="4" id="122" name="Meat 178" order="5" sx="1.0" sy="1.0" x="352" y="190" z="5"/>
     </actors>
     <snippets>
         <s enabled="true" id="6">

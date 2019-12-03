@@ -103,6 +103,12 @@
             <actortype eid="0" id="1"/>
         </event-collide-typetotype>
     </group>
+    <group eventID="4" id="1">
+        <toggle-image comment="false" x="142" y="156">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </toggle-image>
+    </group>
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
         <if comment="false" x="626" y="109">
@@ -182,7 +188,7 @@
         </if>
     </group>
     <group eventID="5" id="-1">
-        <get-val-50-3 comment="false" x="1050" y="141"/>
         <get-val-50-4 comment="false" x="788" y="298"/>
+        <get-val-50-3 comment="false" x="1050" y="141"/>
     </group>
 </groups>
