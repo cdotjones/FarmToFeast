@@ -6,4 +6,6 @@
     <scene desc="" format="4.0.1" id="3" name="Title_Screen"/>
     <scene desc="" format="4.0.1" id="4" name="cowpatch"/>
     <scene desc="" format="4.0.1" id="5" name="Kitchen"/>
+    <scene desc="" format="4.0.1" id="6" name="EndScreen"/>
+    <scene desc="" format="4.0.1" id="7" name="TitleScreen2"/>
 </scenes>

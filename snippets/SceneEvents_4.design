@@ -53,7 +53,7 @@
             </group>
         </init>
     </group>
-    <group eventID="1" id="2">
+    <group eventID="1" id="1">
         <if comment="false" x="337" y="235">
             <group eventID="1" id="-1">
                 <toggle-image comment="false" x="348" y="260">
@@ -99,7 +99,7 @@
                             <ACTOR eid="1" id="0"/>
                             <int id="1" val="0"/>
                         </get-xy>
-                        <int id="1" val="50"/>
+                        <int id="1" val="30"/>
                     </plus>
                 </set-xy>
                 <set-xy comment="false" x="26" y="197">
@@ -121,7 +121,7 @@
                             <ACTOR eid="1" id="0"/>
                             <int id="1" val="0"/>
                         </get-xy>
-                        <int id="1" val="25"/>
+                        <int id="1" val="10"/>
                     </plus>
                 </set-xy>
                 <set-xy comment="false" x="26" y="287">
@@ -143,7 +143,7 @@
                             <ACTOR eid="1" id="0"/>
                             <int id="1" val="0"/>
                         </get-xy>
-                        <int id="1" val="75"/>
+                        <int id="1" val="60"/>
                     </plus>
                 </set-xy>
                 <set-xy comment="false" x="26" y="377">
@@ -154,7 +154,7 @@
                             <ACTOR eid="1" id="0"/>
                             <int id="1" val="1"/>
                         </get-xy>
-                        <int id="1" val="35"/>
+                        <int id="1" val="40"/>
                     </minus>
                 </set-xy>
                 <if comment="false" x="26" y="422">

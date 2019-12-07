@@ -17,10 +17,10 @@
     <group eventID="2" id="0">
         <event-mouse-enter-exit-actor comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <set-opacity comment="false" x="26" y="42">
+                <setanim comment="false" x="26" y="42">
                     <ACTOR eid="this" id="0"/>
-                    <int id="1" val="50"/>
-                </set-opacity>
+                    <int id="1" val="hover"/>
+                </setanim>
             </group>
             <ACTOR eid="this" id="0"/>
             <int id="1" val="0"/>
@@ -30,10 +30,10 @@
     <group eventID="3" id="0">
         <event-mouse-enter-exit-actor comment="false" x="15" y="15">
             <group eventID="3" id="-1">
-                <set-opacity comment="false" x="26" y="42">
+                <setanim comment="false" x="26" y="42">
                     <ACTOR eid="this" id="0"/>
-                    <int id="1" val="100"/>
-                </set-opacity>
+                    <int id="1" val="nohover"/>
+                </setanim>
             </group>
             <ACTOR eid="this" id="0"/>
             <int id="1" val="1"/>

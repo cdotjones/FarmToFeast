@@ -14,12 +14,14 @@
     <actors>
         <actor a="0.0" aid="1" c="false" group="0" id="0" name="Player 1" order="0" sx="1.0" sy="1.0" x="230" y="21" z="2"/>
         <actor a="0.0" aid="2" c="false" group="3" id="92" name="GateLeave 2" order="1" sx="1.0" sy="1.0" x="199" y="-21" z="2"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="92" name="GateLeave 3" order="2" sx="1.0" sy="1.0" x="232" y="-21" z="2"/>
-        <actor a="0.0" aid="4" c="false" group="3" id="92" name="GateLeave 4" order="3" sx="1.0" sy="1.0" x="263" y="-22" z="2"/>
-        <actor a="0.0" aid="5" c="false" group="4" id="108" name="inventory 5" order="4" sx="1.0" sy="1.0" x="194" y="-19" z="2"/>
-        <actor a="0.0" aid="6" c="false" group="4" id="110" name="potato 6" order="0" sx="1.0" sy="1.0" x="233" y="-2" z="4"/>
-        <actor a="0.0" aid="7" c="false" group="4" id="122" name="Meat 7" order="1" sx="1.0" sy="1.0" x="265" y="-6" z="4"/>
-        <actor a="0.0" aid="8" c="false" group="3" id="96" name="CobPickUp 8" order="2" sx="1.0" sy="1.0" x="208" y="-6" z="4"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="108" name="inventory 5" order="2" sx="1.0" sy="1.0" x="298" y="30" z="2"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="126" name="Table 9" order="0" sx="1.0" sy="1.0" x="199" y="121" z="4"/>
+        <actor a="0.0" aid="10" c="false" group="4" id="118" name="Space 10" order="1" sx="1.0" sy="1.0" x="216" y="66" z="4"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="92" name="GateLeave 11" order="3" sx="1.0" sy="1.0" x="232" y="-21" z="2"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="92" name="GateLeave 12" order="4" sx="1.0" sy="1.0" x="267" y="-22" z="2"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="96" name="CobPickUp 13" order="2" sx="1.0" sy="1.0" x="355" y="47" z="4"/>
+        <actor a="0.0" aid="14" c="false" group="4" id="110" name="potato 14" order="3" sx="1.0" sy="1.0" x="309" y="46" z="4"/>
+        <actor a="0.0" aid="15" c="false" group="4" id="122" name="Meat 15" order="4" sx="1.0" sy="1.0" x="380" y="45" z="4"/>
     </actors>
     <snippets/>
     <terrain/>

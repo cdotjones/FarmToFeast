@@ -70,7 +70,7 @@
             <ACTOR eid="this" id="0"/>
         </die>
     </group>
-    <group eventID="1" id="3">
+    <group eventID="1" id="2">
         <if comment="false" x="503" y="58">
             <group eventID="1" id="-1">
                 <set-val-54-1 comment="false" x="514" y="83">
@@ -89,12 +89,12 @@
             <get-val-54-2 comment="false" id="0" x="0" y="0"/>
         </if>
     </group>
-    <group eventID="1" id="7">
+    <group eventID="1" id="3">
         <set-val-54-1 comment="false" x="371" y="441">
             <int id="0" val=""/>
         </set-val-54-1>
     </group>
-    <group eventID="1" id="8">
+    <group eventID="1" id="4">
         <set-game-val-1 comment="false" x="307" y="611">
             <true comment="false" id="0" x="0" y="0"/>
         </set-game-val-1>
@@ -102,12 +102,12 @@
             <ACTOR eid="this" id="0"/>
         </die>
     </group>
-    <group eventID="1" id="9">
+    <group eventID="1" id="5">
         <set-game-val-1 comment="false" x="313" y="73">
             <true comment="false" id="0" x="0" y="0"/>
         </set-game-val-1>
     </group>
-    <group eventID="1" id="10">
+    <group eventID="1" id="6">
         <set-val-54-1 comment="false" x="60" y="379">
             <true comment="false" id="0" x="0" y="0"/>
         </set-val-54-1>

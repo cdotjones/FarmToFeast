@@ -3,14 +3,14 @@
     <layers>
         <color-bg blue="255" green="255" red="255"/>
         <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="Sky02" opacity="100" order="1" rid="86" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Layer 2" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="84" name="Play 1" order="0" sx="1.0" sy="1.0" x="-73" y="-128" z="0"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="87" name="Title02 2" order="1" sx="0.80625" sy="0.80625" x="-62" y="-78" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="87" name="Title02 2" order="0" sx="0.80625" sy="0.80625" x="-62" y="-78" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="87" name="Title02 3" order="0" sx="0.69375" sy="0.69375" x="-80" y="-98" z="2"/>
     </actors>
     <snippets/>
     <terrain/>

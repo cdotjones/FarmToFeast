@@ -61,43 +61,82 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_84 extends ActorScript
+class ActorEvents_102 extends ActorScript
 {
+	public var _transformed:Bool;
+	public var _colliding:Bool;
+	public var _message:Bool;
+	public var _draw:Bool;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("transformed", "_transformed");
+		_transformed = false;
+		nameMap.set("colliding", "_colliding");
+		_colliding = false;
+		nameMap.set("message", "_message");
+		_message = false;
+		nameMap.set("draw", "_draw");
+		_draw = false;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* =========================== On Actor =========================== */
-		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
+		/* ======================== When Creating ========================= */
+		_transformed = false;
+		_colliding = false;
+		
+		/* =========================== Keyboard =========================== */
+		addKeyStateListener("Action 1", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && 3 == mouseState)
+			if(wrapper.enabled && pressed)
 			{
-				switchScene(GameModel.get().scenes.get(0).getID(), null, createCrossfadeTransition(.2));
+				if((_transformed == true))
+				{
+					_draw = true;
+					runLater(1000 * 1, function(timeTask:TimedTask):Void
+					{
+						_draw = false;
+						Engine.engine.setGameAttribute("potatoPicked", true);
+						recycleActor(actor);
+					}, actor);
+				}
+				else
+				{
+					if(_colliding)
+					{
+						actor.setAnimation("potato");
+						_transformed = true;
+					}
+				}
 			}
 		});
 		
-		/* =========================== On Actor =========================== */
-		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && 1 == mouseState)
+			if(wrapper.enabled)
 			{
-				actor.alpha = 50 / 100;
+				if((_draw == true))
+				{
+					g.translateToScreen();
+					g.fillColor = Utils.convertColor(Utils.getColorRGB(255,255,255));
+					g.fillRect(0, 200, 500, 100);
+					g.drawString("" + "    The potato was added to your inventory", 0, 200);
+				}
 			}
 		});
 		
-		/* =========================== On Actor =========================== */
-		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
+		/* ========================= Type & Type ========================== */
+		addSceneCollisionListener(getActorType(102).ID, getActorType(0).ID, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && -1 == mouseState)
+			if(wrapper.enabled)
 			{
-				actor.alpha = 100 / 100;
+				_colliding = true;
 			}
 		});
 		

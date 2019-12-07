@@ -43,6 +43,14 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="62" fixedrot="false" fric="0.2" gid="3" id="128" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Back" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="129" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="129" name="Back" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="141" id="0" loop="true" name="Animation 0" numframes="1" originx="193" originy="70" sync="false" version="2" width="386">
+            <poly data="4,0,0,386,0,386,141,0,141" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="1" name="Ball" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Down" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
@@ -320,12 +328,23 @@
         </anim>
     </sprite>
     <music atlasID="0" desc="" id="62" loop="true" name="Music" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="63" fixedrot="false" fric="0.2" gid="3" id="130" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Plate" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="131" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="131" name="Plate" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="207" id="0" loop="true" name="Animation 0" numframes="1" originx="209" originy="103" sync="false" version="2" width="419">
+            <poly data="4,0,0,419,0,419,207,0,207" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="40" fixedrot="false" fric="0.2" gid="3" id="84" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Play" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="85" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="85" name="Play" readable="false" shared="false">
-        <anim across="1" down="1" durations="100" height="480" id="0" loop="true" name="Animation 0" numframes="1" originx="320" originy="240" sync="false" version="2" width="640">
-            <poly data="4,0,0,640,0,640,480,0,480" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        <anim across="1" down="1" durations="100" height="480" id="0" loop="true" name="nohover" numframes="1" originx="140" originy="51" sync="false" version="2" width="640">
+            <poly data="4,0,0,280,0,280,102,0,102" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="480" id="1" loop="true" name="hover" numframes="1" originx="140" originy="51" sync="false" version="2" width="640">
+            <poly data="4,0,0,280,0,280,102,0,102" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="13" fixedrot="true" fric="0.0" gid="0" id="0" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.01" name="Player" oid="19717" pausable="true" physicsMode="0" rest="0.0" shared="true" sprite="1" static="false">
@@ -441,6 +460,14 @@
         </anim>
     </sprite>
     <music atlasID="0" desc="" id="47" loop="true" name="Switch Activated" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="60" fixedrot="false" fric="0.2" gid="3" id="126" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Table" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="127" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="127" name="Table" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="61" id="0" loop="true" name="Animation 0" numframes="1" originx="47" originy="30" sync="false" version="2" width="95">
+            <poly data="4,0,0,95,0,95,61,0,61" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="42" fixedrot="true" fric="0.2" gid="3" id="87" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Title02" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="88" static="true">
         <snippets/>
     </actor>

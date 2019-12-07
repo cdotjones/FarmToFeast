@@ -15,27 +15,31 @@
                     <ACTOR eid="56" id="0"/>
                     <int id="1" val="1"/>
                 </toggle-image>
-                <if comment="false" x="26" y="121">
+                <toggle-image comment="false" x="26" y="121">
+                    <ACTOR eid="59" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <if comment="false" x="26" y="148">
                     <group eventID="3" id="-1">
-                        <toggle-image comment="false" x="37" y="146">
+                        <toggle-image comment="false" x="37" y="173">
                             <ACTOR eid="55" id="0"/>
                             <int id="1" val="0"/>
                         </toggle-image>
                     </group>
                     <get-game-val-1 comment="false" id="0" x="0" y="0"/>
                 </if>
-                <if comment="false" x="26" y="185">
+                <if comment="false" x="26" y="212">
                     <group eventID="3" id="-1">
-                        <toggle-image comment="false" x="37" y="210">
+                        <toggle-image comment="false" x="37" y="237">
                             <ACTOR eid="56" id="0"/>
                             <int id="1" val="0"/>
                         </toggle-image>
                     </group>
                     <get-game-val-2 comment="false" id="0" x="0" y="0"/>
                 </if>
-                <if comment="false" x="26" y="249">
+                <if comment="false" x="26" y="276">
                     <group eventID="3" id="-1">
-                        <toggle-image comment="false" x="37" y="274">
+                        <toggle-image comment="false" x="37" y="301">
                             <ACTOR eid="59" id="0"/>
                             <int id="1" val="0"/>
                         </toggle-image>
@@ -72,7 +76,7 @@
             <int id="1" val="1"/>
         </toggle-image>
     </group>
-    <group eventID="3" id="4">
+    <group eventID="3" id="3">
         <if comment="false" x="688" y="208">
             <group eventID="3" id="-1">
                 <toggle-image comment="false" x="699" y="233">
@@ -118,7 +122,7 @@
                             <ACTOR eid="1" id="0"/>
                             <int id="1" val="0"/>
                         </get-xy>
-                        <int id="1" val="50"/>
+                        <int id="1" val="30"/>
                     </plus>
                 </set-xy>
                 <set-xy comment="false" x="26" y="197">
@@ -140,7 +144,7 @@
                             <ACTOR eid="1" id="0"/>
                             <int id="1" val="0"/>
                         </get-xy>
-                        <int id="1" val="25"/>
+                        <int id="1" val="10"/>
                     </plus>
                 </set-xy>
                 <set-xy comment="false" x="26" y="287">
@@ -159,10 +163,10 @@
                     <int id="1" val="0"/>
                     <plus comment="false" id="2" x="0" y="0">
                         <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="16" id="0"/>
+                            <ACTOR eid="1" id="0"/>
                             <int id="1" val="0"/>
                         </get-xy>
-                        <int id="1" val="75"/>
+                        <int id="1" val="60"/>
                     </plus>
                 </set-xy>
                 <set-xy comment="false" x="26" y="377">
@@ -170,10 +174,10 @@
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
                         <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="16" id="0"/>
+                            <ACTOR eid="1" id="0"/>
                             <int id="1" val="1"/>
                         </get-xy>
-                        <int id="1" val="35"/>
+                        <int id="1" val="40"/>
                     </minus>
                 </set-xy>
                 <if comment="false" x="26" y="422">
