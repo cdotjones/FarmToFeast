@@ -52,16 +52,16 @@
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="1" name="Ball" readable="false" shared="false">
-        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Down" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+        <anim across="2" down="2" durations="100,100,100" height="64" id="0" loop="true" name="Down" numframes="3" originx="16" originy="16" sync="false" version="2" width="64">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="31" id="1" loop="true" name="Up" numframes="1" originx="14" originy="15" sync="false" version="2" width="28">
+        <anim across="2" down="2" durations="100,100,100" height="62" id="1" loop="true" name="Up" numframes="3" originx="14" originy="15" sync="false" version="2" width="56">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="31" id="2" loop="true" name="Left" numframes="1" originx="12" originy="15" sync="false" version="2" width="24">
+        <anim across="2" down="1" durations="100,100" height="31" id="2" loop="true" name="Left" numframes="2" originx="12" originy="15" sync="false" version="2" width="48">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="31" id="3" loop="true" name="Right" numframes="1" originx="12" originy="15" sync="false" version="2" width="24">
+        <anim across="2" down="1" durations="100,100" height="31" id="3" loop="true" name="Right" numframes="2" originx="12" originy="15" sync="false" version="2" width="48">
             <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
@@ -122,7 +122,7 @@
             <poly data="4,0,0,60,0,60,60,0,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="320" id="90" name="cowpasture" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="480" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="90" name="cowpasture" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="63" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="64" static="true">
         <snippets/>
     </actor>
